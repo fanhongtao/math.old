@@ -1,0 +1,12 @@
+---
+layout: page
+title: 关于我
+---
+<img src="/assets/images/me.jpg" alt="My Photo" width="230px"/>
+<p/>
+<p>范洪滔，数学爱好者。</p>
+
+<p>联系方式 : <a href="mailto:{{ site.author.email }}" title="Mail to {{site.author.name}}"><i class="fa fa-envelope-o"></i> {{ site.author.email }}</a></p>
+{% if site.github.username %}
+  <p><a href="https://github.com/{{ site.github.username }}" title="Fork me on GitHub"><i class="fa fa-github"></i> Github</a></p>
+{% endif %}
