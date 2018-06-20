@@ -4,9 +4,9 @@ layout: default
   <article id="myArticle" class="col-sm-9">
     <header class="posthead">
       <h1>{{ page.title }}</h1>
-      <p class="meta">
-        <time class="date" pubdate="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">{{ page.date | date:'%B %e, %Y' }}</time> By {% if page.author %}{{ page.author }}{% else %}<a href="{{ '/me.html' | prepend: site.baseurl }}" class="author" title="author">{{ site.author.name }}</a>{% endif %}
-      </p>
+      <div class="meta">
+        <time class="date" pubdate="{{ page.date | date_to_utc | date: '%Y-%m-%d' }}">{{ page.date | date:'%B %e, %Y' }}</time> By {% if page.book %}{% include book.html %}{% else %} {% if page.author %}{{ page.author }}{% else %}<a href="{{ '/me.html' | prepend: site.baseurl }}" class="author" title="author">{{ site.author.name }}</a>{% endif %}{% endif %}
+      </div>
       {% if page.description %}<p class="description">{{ page.description }}</p>{% endif %}
     </header>
     <hr>

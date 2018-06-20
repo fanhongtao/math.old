@@ -5,6 +5,7 @@ $(document).ready(function() {
     generateQRcode();
     generateContent();
     backToTop();
+    changeEmptyHeadTable();
 });
 
 /**
@@ -49,3 +50,18 @@ function backToTop() {
     });
 }
 
+// 修改表头字段为空的表格：删除表头，并隐藏表格线
+function changeEmptyHeadTable() {
+  $("table").each(function (tabindex, tabitem) {
+    var clean = false;
+    $(tabitem).find("th").each(function (thindex, thitem) {
+      if ($.trim($(thitem).text()).length==0){
+        $(thitem).parent().remove();
+        clean = true;
+      }
+    });
+    if (clean) {
+      $(tabitem).css("border","0");
+    }
+  });
+}
