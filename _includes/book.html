@@ -1,6 +1,6 @@
 <style>
 #book .name { display:inline; }
-#book .hint { display: none; position: fixed; background:#ddd; }
+#book .hint { display: none; position: fixed; background:#ddd; z-index:999; }
 #book .name:hover +.hint{ display: inline; }
 </style>
 <div id='book' style="display:inline;">{% for b in site.data.books %}{% if page.book == b.name %}
