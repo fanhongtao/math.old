@@ -44,7 +44,7 @@ function backToTop() {
         }
     });
     $("#back-top").click(function() {
-        $("body").animate({
+        $("body,html").animate({
             scrollTop: "0"
         }, 500);
     });
