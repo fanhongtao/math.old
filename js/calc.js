@@ -38,4 +38,39 @@ $(document).ready(function() {
     }
     $("#result2").val(result);
   });
+  
+  $("#calc3").click(function() {
+    var x1 = parseFloat($("#c3x1").val());
+    var x2 = parseFloat($("#c3x2").val());
+    var y1 = parseFloat($("#c3y1").val());
+    var y2 = parseFloat($("#c3y2").val());
+    var y21 = y2 - y1;
+    var x21 = x2 - x1;
+    var start = parseFloat($("#c3startx").val());
+    var stop = parseFloat($("#c3stopx").val());
+    if (start > stop) {
+      [start, stop] = [stop, start]; // 使用 ES6 解构赋值语法交换值，等同于下面三行
+      // var tmp = stop;
+      // stop = start;
+      // start = tmp;
+    }
+    if (x1 > x2) {
+      [x1, x2] = [x2, x1];
+      [y1, y2] = [y2, y1];
+    }
+    var result = "";
+    for (var x3 = start+1; x3 < stop; x3++) {
+      if ((x3 >= x1) && (x3 <= x2)) {
+        continue;
+      }
+      var y3 = ((y2 - y1) * (x3 - x2))/(x2 - x1)  + y2;
+      if (Number.isInteger(y3)){
+        result = result +　"(" + x3 + "," + y3 + ")\n"
+      }
+    }
+    if (result == "") {
+      result = "没有符合条件的点。"
+    }
+    $("#result3").val(result);
+  });
 });
