@@ -50,7 +50,7 @@ function backToTop() {
     });
 }
 
-// 修改表头字段为空的表格：删除表头，并隐藏表格线
+// 修改表头字段为空的表格：删除表头，并隐藏表格线，清除表格背景色，表格居中显示
 function changeEmptyHeadTable() {
   $("table").each(function (tabindex, tabitem) {
     var clean = false;
@@ -61,7 +61,11 @@ function changeEmptyHeadTable() {
       }
     });
     if (clean) {
-      $(tabitem).css("border","0");
+      $(tabitem).css("margin","0px auto"); // 居中显示
+      $(tabitem).css("border","none");
+      $(tabitem).find("tr").css("border", "none");
+      $(tabitem).find("td").css("border", "none");
+      $(tabitem).find("tr").css("background", "transparent")
     }
   });
 }
