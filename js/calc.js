@@ -73,4 +73,26 @@ $(document).ready(function() {
     }
     $("#result3").val(result);
   });
+  
+  $("#calc4").click(function() {
+    var x1 = parseFloat($("#c4x1").val());
+    var x2 = parseFloat($("#c4x2").val());
+    var y1 = parseFloat($("#c4y1").val());
+    var y2 = parseFloat($("#c4y2").val());
+    var tmp = Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2);
+    var a = 0;
+    if ($('#type4 option:selected').text() == "x3") {
+      var x3 = parseFloat($("#c4num3").val());
+      tmp = Math.sqrt(Math.abs(tmp - Math.pow(x1 - x3, 2)));
+      a = y1;
+    } else {
+      var y3 = parseFloat($("#c4num3").val());
+      tmp = Math.sqrt(Math.abs(tmp - Math.pow(y1 - y3, 2)));
+      a = x1;
+    }
+    var result = "";
+    result = result + (a + tmp) + "  或   "
+    result = result + (a - tmp)
+    $("#result4").val(result);
+  });
 });
