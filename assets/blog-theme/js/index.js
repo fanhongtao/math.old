@@ -54,13 +54,17 @@ function backToTop() {
 function changeEmptyHeadTable() {
   $("table").each(function (tabindex, tabitem) {
     var clean = false;
+    var count = 0;
+    var last_th;
     $(tabitem).find("th").each(function (thindex, thitem) {
       if ($.trim($(thitem).text()).length==0){
-        $(thitem).parent().remove();
-        clean = true;
+        last_th = thitem;
+        count = count + 1;
       }
     });
-    if (clean) {
+    
+    if (count > 1) {
+      $(last_th).parent().remove();
       $(tabitem).css("margin","0px auto"); // 居中显示
       $(tabitem).css("border","none");
       $(tabitem).find("tr").css("border", "none");
