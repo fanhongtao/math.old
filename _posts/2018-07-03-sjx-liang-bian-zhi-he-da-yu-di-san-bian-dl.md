@@ -7,12 +7,9 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 三角形两边之和大于第三边定理
-
 在 $\triangle ABC$ 中，$ AC + BC > AB $ ，$ AB + BC > AC $ ，$ AB + AC > BC $  。
+
+<!--more-->
 
 ## 证法1
 
@@ -45,3 +42,6 @@ $$ 1 = \frac{S_{\triangle BDA}}{S_{\triangle BAD}} > \frac{BD \cdot AD}{BA \cdot
 即 $AB > BD$。 同理 $AC > DC$，故
 
 $$ AB + AC > BD + DC = BC $$
+
+* content
+{:toc}

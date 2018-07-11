@@ -7,12 +7,9 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 三角形角平分线判定定理
-
 在 $\triangle ABC$ 中，点 $D$ 是边 $BC$ 上的一点，若 $\frac{BD}{DC} = \frac{AB}{AC}$，则 $AD$ 平分 $\angle A$ 。
+
+<!--more-->
 
 ## 证明
 
@@ -25,3 +22,6 @@ $$ \frac{S_{\triangle BAD}}{S_{\triangle DAC}} = \frac{BD}{DC} = \frac{AB}{AC} =
 而 $\angle BAD$ 与 $\angle DAC$ 均为锐角，故 $\angle BAD = \angle DAC$。
 
 即 $AD$ 平分 $\angle A$ 。
+
+* content
+{:toc}

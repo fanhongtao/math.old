@@ -7,12 +7,9 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 两平行线与第三直线平行定理
-
 若直线 $AB \px CD$，$CD \px PQ$，则直线 $AB \px PQ$。
+
+<!--more-->
 
 ## 证明
 
@@ -33,3 +30,6 @@ book: 数学瑰宝
 *（根据[平行线与面积关系定理]({{ site.baseurl }}{% link _posts/2018-06-22-ping-xing-xian-yu-mian-ji-guan-xi-ding-li.md %})）*故
 
   $$ AB \px PQ $$
+
+* content
+{:toc}

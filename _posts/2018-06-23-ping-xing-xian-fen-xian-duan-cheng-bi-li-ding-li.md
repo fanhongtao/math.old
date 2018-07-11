@@ -7,14 +7,11 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
+若直线 $l_1$，$l_2$，$l_3$ 满足 $l_1 \px l_2 \px l_3$，直线 $AC$，$DF$ 分别交 $l_1$，$l_2$，$l_3$ 于 $A$，$B$，$C$ 和 $D$，$E$，$F$，则 
 
-# 平行线分线段成比例定理
+$$ \frac{AB}{BC} = \frac{DE}{EF} $$
 
- 若直线 $l_1$，$l_2$，$l_3$ 满足 $l_1 \px l_2 \px l_3$，直线 $AC$，$DF$ 分别交 $l_1$，$l_2$，$l_3$ 于 $A$，$B$，$C$ 和 $D$，$E$，$F$，则 
- 
-  $$ \frac{AB}{BC} = \frac{DE}{EF} $$
+<!--more-->
 
 ## 证明
 
@@ -49,3 +46,5 @@ book: 数学瑰宝
 
 若一直线束中的直线 $PAB$，$PCD$，$PEF$ 上的点 $A$，$B$，$C$，$D$，$E$，$F$ 满足 $ AC \px BD$，$CE \px DF$，则$AE \px BF$。
 
+* content
+{:toc}

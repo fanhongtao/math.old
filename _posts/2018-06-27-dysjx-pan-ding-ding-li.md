@@ -7,12 +7,9 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 等腰三角形判定定理
-
 在 $\triangle ABC$ 中，若 $\angle B = \angle C$ ，则 $ AB = AC $。
+
+<!--more-->
 
 ## 证明
 
@@ -21,3 +18,6 @@ book: 数学瑰宝
 $$ 1 = \frac{S_{\triangle ABC}}{S_{\triangle ACB}} = \frac{AB \cdot BC}{AC \cdot BC} = \frac{AB}{AC}$$
 
 故 $AB = AC$ 。
+
+* content
+{:toc}

@@ -7,14 +7,11 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 共角比例定理
-
 若 $\angle ABC$ 与 $\angle A'B'C'$ 相等或互补，则有
 
 $$ \frac{S_{\triangle ABC}}{S_{\triangle A'B'C'}} = \frac{AB \cdot BC}{A'B' \cdot B'C'} （或 \frac{S_{\triangle ABC}}{AB \cdot BC} = \frac{S_{\triangle A'B'C'}}{A'B' \cdot B'C'} ）$$
+
+<!--more-->
 
 ## 证明
 
@@ -41,3 +38,5 @@ $$ \frac{S_{\triangle PAC}}{S_{\triangle QXZ}} = \frac{PA \cdot BC}{QX \cdot YZ}
 
 $$ \frac{S_{\triangle PAC}}{S_{\triangle QXZ}} = \frac{S_{\triangle PAC}}{S_{\triangle ZBC}} \cdot \frac{S_{\triangle ZBC}}{S_{\triangle ZXY}} \cdot \frac{S_{\triangle ZXY}}{S_{\triangle QXZ}} = \frac{PA}{ZB} \cdot \frac{BC}{XY} \cdot \frac{XY}{QX} = \frac{PA \cdot BC}{QX \cdot YZ} $$
 
+* content
+{:toc}

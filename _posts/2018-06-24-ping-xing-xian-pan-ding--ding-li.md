@@ -7,12 +7,9 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 平行线判定定理
-
 两条直线与第三条直线相交，若同位角相等，则这两条直线平行。
+
+<!--more-->
 
 ## 证明
 
@@ -24,3 +21,6 @@ book: 数学瑰宝
 
 1. 由此定理，可推出若内错角相等或同旁角互补，则两条直线平行。
 2. 由此定理，再利用[平行线的唯一性]({{ site.baseurl }}{% link _posts/2018-06-23-ping-xing-xian-wei-yi-xing--ding-li.md %})，便可推出：若 $AB \px CD$，则它们被另一直线所截时，其同位角相等。
+
+* content
+{:toc}

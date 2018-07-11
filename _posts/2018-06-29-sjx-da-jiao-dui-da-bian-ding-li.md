@@ -7,12 +7,9 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 三角形大角对大边定理
-
 在 $\triangle ABC$ 中，若 $\angle B > \angle C$ ，则 $ AC > AB $。
+
+<!--more-->
 
 ## 证明
 
@@ -21,3 +18,6 @@ book: 数学瑰宝
 $$ 1 = \frac{S_{\triangle ABC}}{S_{\triangle ACB}} > \frac{AB \cdot BC}{AC \cdot BC} = \frac{AB}{AC}$$
 
 故 $ AC > AB $。
+
+* content
+{:toc}

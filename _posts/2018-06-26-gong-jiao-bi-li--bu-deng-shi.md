@@ -7,14 +7,11 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 共角比例不等式
-
 若 $\angle ABC$ > $\angle A'B'C'$ ，而且有两角之和小于 $180^\circ$，则
 
 $$ \frac{S_{\triangle ABC}}{S_{\triangle A'B'C'}} > \frac{AB \cdot BC}{A'B' \cdot B'C'} （或 \frac{S_{\triangle ABC}}{AB \cdot BC} > \frac{S_{\triangle A'B'C'}}{A'B' \cdot B'C'} ）$$
+
+<!--more-->
 
 ## 证明
 
@@ -27,3 +24,6 @@ $$ \frac{S_{\triangle ABC}}{AB \cdot BC} = \frac{S_{\triangle QPS}}{PQ \cdot PS}
 ---
 
 *补充：因为是等腰三角形，所以 $PQ = PR$ ，即 $PQ\cdot PS = PR\cdot PS$*
+
+* content
+{:toc}

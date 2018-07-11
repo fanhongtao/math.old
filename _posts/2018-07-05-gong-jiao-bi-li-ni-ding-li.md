@@ -7,17 +7,13 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 共角比例逆定理
-
 在 $\triangle ABC$ 和 $\triangle A'B'C'$ 中，若
 
 $$ \frac{S_{\triangle ABC}}{S_{\triangle A'B'C'}} = \frac{AB \cdot BC}{A'B' \cdot B'C'} $$
 
 ，则 $\angle B$ 与 $\angle B'$ 相等或互补。
 
+<!--more-->
 
 ## 证明
 
@@ -61,3 +57,5 @@ $$ \frac{S_{\triangle ABC}}{S_{\triangle A'B'C'}} < \frac{AB \cdot BC}{A'B' \cdo
 
 故 $\angle B$ 与 $\angle B'$ 相等或互补。
 
+* content
+{:toc}

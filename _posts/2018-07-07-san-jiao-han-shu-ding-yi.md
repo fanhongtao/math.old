@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 三角函数的定义
+description: 通过 对边、斜边、邻边 来定义 正弦、余弦、正切、余切、正割 和 余割。
 categories: 三角函数
 tags: [三角函数]
 copyright: cn

@@ -7,9 +7,6 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
 # 基本命题
 
 设 $\triangle ABC$ 的边 $AB$ 上有一点 $M$，如果有 $AM = \lambda AB$ 或 $\frac{AM}{AB} = \lambda$，则
@@ -27,6 +24,8 @@ $$\frac{S_{\triangle AMC}}{S_{\triangle ABC}} = \lambda = \frac {AM}{AB}$$
 若直线 $AB$ 与直线 $PQ$ 交于 $M$ ，则
 
 $$\frac{S_{\triangle PAB}}{S_{\triangle QAB}} = \frac {PM}{QM}$$
+
+<!--more-->
 
 ## 证明
 
@@ -64,3 +63,6 @@ $$\frac{S_{\triangle PAB}}{S_{\triangle QAB}} = \frac{S_{\triangle PMN}}{S_{\tri
 $$\frac{S_{\triangle PAB}}{S_{\triangle QAB}} = \frac{S_{\triangle PAB}}{S_{\triangle PMB}} \cdot \frac{S_{\triangle PMB}}{S_{\triangle QMB}} \cdot \frac{S_{\triangle QMB}}{S_{\triangle QAB}} = \frac{AB}{MB} \cdot \frac{PM}{QM} \cdot \frac{MB}{AB} = \frac{PM}{QM}$$
 
 即证。
+
+* content
+{:toc}

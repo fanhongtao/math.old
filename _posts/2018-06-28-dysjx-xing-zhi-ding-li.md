@@ -7,12 +7,9 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 等腰三角形性质定理
-
 在 $\triangle ABC$ 中，若 $ AB = AC $ ，则 $\angle B = \angle C$。
+
+<!--more-->
 
 ## 证明
 
@@ -21,3 +18,6 @@ book: 数学瑰宝
 $$ 1 = \frac{S_{\triangle ABC}}{S_{\triangle ACB}} > \frac{AB \cdot BC}{AC \cdot BC} = \frac{AB}{AC}$$
 
 推出 $ AC > AB $，与 $ AB = AC $ 矛盾，故 $\angle B = \angle C$ 。
+
+* content
+{:toc}

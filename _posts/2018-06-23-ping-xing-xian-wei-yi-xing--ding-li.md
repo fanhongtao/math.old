@@ -7,12 +7,9 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 平行线唯一性定理
-
 过直线 $AB$ 外一点，有且只有一条直线 $PQ$ 平行于 $AB$。
+
+<!--more-->
 
 ## 证明
 
@@ -28,3 +25,5 @@ book: 数学瑰宝
 
 再证唯一性，若 $l$ 也是过点 $P$ 的另一条与 $AB$ 平行的直线，不妨设与 $BQ$ 的交点 $Q'$ 在 $B$，$Q$ 之间，这时 $ S_{\triangle Q’AB} < S_{\triangle PAB} $ （因 $S_{\triangle AQQ'} + S_{\triangle Q'AB} = S_{\triangle QAB} + S_{\triangle PAB}$），于是 $l$ 不与 $AB$ 平行。
 
+* content
+{:toc}

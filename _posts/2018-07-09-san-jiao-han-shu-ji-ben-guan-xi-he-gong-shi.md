@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 三角函数基本关系和公式
+description: 常见的三角函数
 categories: 三角函数
 tags: [三角函数]
 copyright: cn

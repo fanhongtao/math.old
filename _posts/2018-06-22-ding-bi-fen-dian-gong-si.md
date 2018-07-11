@@ -7,14 +7,11 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-* content
-{:toc}
-
-# 定比分点公式
-
 若 $P$，$Q$ 两点在直线 $AB$ 的同侧（即线段不与直线 $AB$ 相交），点 $C$ 在线段 $PQ$ 上，且 $PC = \lambda PQ$，则
 
 $$S_{\triangle ABC} = \lambda S_{\triangle QAB} + (1 - \lambda) S_{\triangle PAB}$$
+
+<!--more-->
 
 ## 证明
 
@@ -100,3 +97,6 @@ $$ \frac{S_{\triangle PAB} - S_{\triangle CAB}}{S_{\triangle CAB} + S_{\triangle
 解出得
 
 $$S_{\triangle ABC} = (1 - \lambda)S_{\triangle PAB} - \lambda S_{\triangle QAB}$$
+
+* content
+{:toc}

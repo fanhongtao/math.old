@@ -7,9 +7,9 @@ copyright: cn
 book: 数学瑰宝
 ---
 
-# 平行线与面积关系定理
+若直线 $MN \px AB$，则 $S_{\triangle MAB} = S_{\triangle NAB}$；反过来，若 $S_{\triangle MAB} = S_{\triangle NAB}$，则 $MN \px AB$。
 
- 若直线 $MN \px AB$，则 $S_{\triangle MAB} = S_{\triangle NAB}$；反过来，若 $S_{\triangle MAB} = S_{\triangle NAB}$，则 $MN \px AB$。
+<!--more-->
 
 ## 证明
 
@@ -31,5 +31,5 @@ $$ S_{\triangle MAB} = S_{\triangle NAB} $$
 
 若直线 $MN$ 与 $AB$ 相交于点 $L$，则 $\frac{S_{\triangle MAB}}{S_{\triangle NAB}} = \frac{ML}{NL} > 1$，即 $ S_{\triangle MAB} > S_{\triangle NAB} $，这与题设 $ S_{\triangle MAB} = S_{\triangle NAB} $ 矛盾，从而假定直线 $MN$ 与 $AB$ 相交不成立，故 $MN \px AB$。
 
-
-
+* content
+{:toc}
