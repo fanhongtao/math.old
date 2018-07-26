@@ -9,7 +9,7 @@ book: 数学瑰宝
 
 # 定理 1 
 
-（边、边、边判定定理）设 $\triangle ABC$ 与 $\triangle A'B'C'$ 的三条边对应相等，即 $BC = B'C'$ ，$AC = A'C'$，$AB = A'B'$，则 $\triangle ABC \qd \triangle A'B'C'$。
+**（边、边、边判定定理）** 设 $\triangle ABC$ 与 $\triangle A'B'C'$ 的三条边对应相等，即 $BC = B'C'$ ，$AC = A'C'$，$AB = A'B'$，则 $\triangle ABC \qd \triangle A'B'C'$。
 
 <!--more-->
 
@@ -19,7 +19,7 @@ book: 数学瑰宝
 
 # 定理 2 
 
-（边、角、边判定定理）在 $\triangle ABC$ 与 $\triangle A'B'C'$ 中，若 $BC = B'C'$，$AC = A'C'$，$\angle C = \angle C'$，则 $\triangle ABC \qd \triangle A'B'C'$。
+**（边、角、边判定定理）** 在 $\triangle ABC$ 与 $\triangle A'B'C'$ 中，若 $BC = B'C'$，$AC = A'C'$，$\angle C = \angle C'$，则 $\triangle ABC \qd \triangle A'B'C'$。
 
 ## 证明
 
@@ -27,7 +27,7 @@ book: 数学瑰宝
 
 # 定理 3
 
-（角、边、角判定定理）在 $\triangle ABC$ 与 $\triangle A'B'C'$ 中，若 $\angle A = \angle A'$，$AB = A'B'$，$\angle B = \angle B'$，则 $\triangle ABC \qd \triangle A'B'C'$。
+**（角、边、角判定定理）** 在 $\triangle ABC$ 与 $\triangle A'B'C'$ 中，若 $\angle A = \angle A'$，$AB = A'B'$，$\angle B = \angle B'$，则 $\triangle ABC \qd \triangle A'B'C'$。
 
 ## 证明
 
@@ -35,7 +35,7 @@ book: 数学瑰宝
 
 # 定理 4
 
-（角、边、边判定定理）在 $\triangle ABC$ 与 $\triangle A'B'C'$ 中，若 $\angle A = \angle A'$，$AB = A'B'$，$BC = B'C'$，并且 $\angle C$ 与 $\angle C'$ 不互补，则 $\triangle ABC \qd \triangle A'B'C'$。
+**（角、边、边判定定理）** 在 $\triangle ABC$ 与 $\triangle A'B'C'$ 中，若 $\angle A = \angle A'$，$AB = A'B'$，$BC = B'C'$，并且 $\angle C$ 与 $\angle C'$ 不互补，则 $\triangle ABC \qd \triangle A'B'C'$。
 
 ## 证明
 
