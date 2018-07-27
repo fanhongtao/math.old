@@ -95,4 +95,29 @@ $(document).ready(function() {
     result = result + (a - tmp)
     $("#result4").val(result);
   });
+  
+  $("#calc5").click(function() {
+    var x1 = parseFloat($("#c5x1").val());
+    var x2 = parseFloat($("#c5x2").val());
+    var x3 = parseFloat($("#c5x3").val());
+    var y1 = parseFloat($("#c5y1").val());
+    var y2 = parseFloat($("#c5y2").val());
+    var y3 = parseFloat($("#c5y3").val());
+    var start = parseFloat($("#c5startx").val());
+    var stop = parseFloat($("#c5stopx").val());
+    if (start > stop) {
+      [start, stop] = [stop, start];
+    }
+    var result = "";
+    for (var x4 = start; x4 <= stop; x4++) {
+      var y4 = y3 - ((y1 - y2) * (x3 - x4))/(x1 - x2);
+      if (Number.isInteger(y4)){
+        result = result +　"(" + x4 + "," + y4 + ")\n"
+      }
+    }
+    if (result == "") {
+      result = "没有符合条件的点。"
+    }
+    $("#result5").val(result);
+  });
 });
